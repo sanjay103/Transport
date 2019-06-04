@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+ <hibernate-mapping package="com.transport.vehicle.entity"> 
+ <class name="Vehicle" table="vehicle">
+ 
+ <id name="id" column="vehicle_id"/>
+ <property name="name" column="vehicle_name"/>
+ <property name="chasis_no"/>
+ <property name="vehicle_type"/>
+ <property name="fuel_type"/>
+ <property name="engine_no"/>
+ <property name="reg_no"/>
+ 
+ </class>
+   
+ </hibernate-mapping> 
